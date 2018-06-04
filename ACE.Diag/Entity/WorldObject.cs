@@ -51,6 +51,12 @@ namespace ACE.Diag.Entity
         [ProtoMember(2)]
         public Position Location;
 
+        [ProtoMember(3)]
+        public bool? Missile;
+
+        [ProtoMember(4)]
+        public float Radius;
+
         public WorldObject()
         {
             Guid = new ObjectGuid();
